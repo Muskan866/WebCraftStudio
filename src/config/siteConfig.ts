@@ -13,14 +13,15 @@ export const siteConfig = {
   
   // Easily customizable contact configuration
   contact: {
-    whatsapp: 'YOUR_WHATSAPP_NUMBER',
-    whatsappFormatted: '+91 (000) 000-0000',
-    email: 'YOUR_EMAIL',
-    emailAddress: 'hello@webcraftstudio.example',
-    instagram: 'YOUR_INSTAGRAM',
-    instagramHandle: '@webcraft.studio',
-    location: 'Remote · Serving Clients Worldwide',
-    workingHours: 'Mon – Sat · 9:00 AM – 7:00 PM IST',
+    whatsapp: '919785160669',
+    whatsappFormatted: '+91 97851 60669',
+    phone: '+91 97851 60669',
+    email: 'webcraftstudio1002@gmail.com',
+    emailAddress: 'webcraftstudio1002@gmail.com',
+    instagram: 'webcraftstudio1002',
+    instagramHandle: '@webcraftstudio1002',
+    location: 'Remote · Serving Clients Across India & Worldwide',
+    workingHours: 'Mon – Sat · 9:00 AM – 8:00 PM IST',
   },
 
   trustIndicators: [

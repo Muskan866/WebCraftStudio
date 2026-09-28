@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
                   className="flex items-center gap-2.5 hover:text-[#dfc08f] transition-colors"
                 >
                   <MessageSquare className="w-4 h-4 text-[#dfc08f] shrink-0" />
-                  <span className="truncate">WhatsApp: {siteConfig.contact.whatsapp}</span>
+                  <span className="truncate">WhatsApp: {siteConfig.contact.whatsappFormatted}</span>
                 </a>
               </li>
               <li>

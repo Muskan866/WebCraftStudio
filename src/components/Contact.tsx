@@ -106,9 +106,25 @@ export const Contact: React.FC<ContactProps> = ({ initialPackage = 'premium', in
                     <MessageSquare className="w-5 h-5" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-xs text-stone-400">Direct WhatsApp</p>
+                    <p className="text-xs text-stone-400">WhatsApp / Call</p>
                     <p className="text-sm font-semibold text-white truncate font-mono mt-0.5">
-                      {siteConfig.contact.whatsapp}
+                      {siteConfig.contact.whatsappFormatted}
+                    </p>
+                  </div>
+                  <ArrowUpRight className="w-4 h-4 text-stone-400 group-hover:text-[#dfc08f] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                </a>
+
+                <a
+                  href={`tel:${siteConfig.contact.whatsapp}`}
+                  className="flex items-center gap-4 p-4 rounded-2xl bg-[#131418] border border-white/[0.08] hover:border-[#c5a880]/40 hover:bg-[#18191f] transition-all group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a880]"
+                >
+                  <div className="w-11 h-11 rounded-xl bg-[#c5a880]/15 text-[#dfc08f] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                    <Phone className="w-5 h-5" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-xs text-stone-400">Direct Phone</p>
+                    <p className="text-sm font-semibold text-white truncate font-mono mt-0.5">
+                      {siteConfig.contact.whatsappFormatted}
                     </p>
                   </div>
                   <ArrowUpRight className="w-4 h-4 text-stone-400 group-hover:text-[#dfc08f] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
